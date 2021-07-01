@@ -1,13 +1,14 @@
-.photo-section {
-  background-image: url(https://www.tacomadailyindex.com/wp-content/uploads/2021/05/25159566_web1_Building-News-IDX-20210514-BrickHistoricBldg_1-801x400.jpg);
-  height: 700px;
-
-  /* center and scale */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
+h1 {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+/* NAVBAR */
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
@@ -26,10 +27,78 @@
   margin-left: auto;
 }
 
+/* PHOTO */
+.photo-section {
+  background-image: url(https://www.tacomadailyindex.com/wp-content/uploads/2021/05/25159566_web1_Building-News-IDX-20210514-BrickHistoricBldg_1-801x400.jpg);
+  height: 700px;
+
+  /* center and scale */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* PHOTO TEXT */
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* SERVICES SECTION */
+.services-section {
+  padding: 5% 12%;
+  position: relative;
+  background-color: #c8c2bc;
+}
+
+.column {
+  padding: 3%;
+}
+
+/* PRICING SECTION */
+.pricing-section {
+  padding: 5%;
+}
+
+.card-text {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* LOCATION SECTION */
+.location-section {
+  padding: 5% 12%;
+  position: relative;
+  background-color: #f2dac3;
+}
+/* Padding for address section and about us section */
+.address {
+  padding: 8%;
+}
+
+/* ABOUT US SECTION */
+.about-section {
+  padding: 5%;
+}
+/* image */
+.round {
+  border-radius: 25px;
+}
+
+.about {
+  padding: 0.5% 8%;
+}
+
+/* FOOTER SECTION */
+.footer-section {
+  background-color: #c8c2bc;
+  padding: 20px 0;
+}
+
+.footer-button {
+  margin: 8% 2% 3% 0;
 }
