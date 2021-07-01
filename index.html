@@ -65,17 +65,39 @@
             </ul>
           </div>
         </nav>
+        
         <!-- Title/header -->
         <div class="centered text-light">
           <h1 class="display-1">
             <strong>TACOMA'S #1 COWORKING &amp; MEETING SPACE</strong>
           </h1>
-          <button type="button" class="btn btn-dark btn-lg text-light">
+          <button id="bookTour" type="button" class="btn btn-dark btn-lg text-light">
             <i class="fas fa-crow"></i> Book A Tour
           </button>
         </div>
       </div>
     </section>
+
+    <!-- Book a Tour Modal -->
+    <div id="tourModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Book A Tour With NEST Cowork</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Schedule</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Services Section -->
     <section class="services-section" id="services">
@@ -183,7 +205,7 @@
             <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=538%20Broadway%20%20Tacoma,%20WA%20%2098402&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div></div>
           </div>
           <div class="col address">
-            <p><i class="fas fa-crow"></i> NEST Cowork <br>
+            <h5><i class="fas fa-crow"></i> NEST Cowork <br>
               538 Broadway<br>  
               Tacoma, WA  98402 <br>
               <br>
@@ -192,7 +214,7 @@
               <br>
               Email: <br>
               info@nestcoworktacoma.com  
-            </p>
+            </h5>
           </div>
       </div>
         
@@ -214,8 +236,8 @@
       </div>
     </section>
 
-      <div class="container-fluid">
-        <footer class="footer-section">
+      
+        <footer class="footer-section container-fluid">
           <div>
             <i class="footer-button fab fa-twitter"></i>
             <i class="footer-button fab fa-facebook-f"></i>
@@ -228,7 +250,7 @@
           </div>
 
         </footer>
-      </div>    
+       
       
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -239,5 +261,7 @@
     <script src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
   <script src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
   <script src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+  <script src="js/scripts.js"></script>
   </body>
 </html>
