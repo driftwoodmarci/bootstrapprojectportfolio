@@ -85,9 +85,19 @@ h1 {
   position: relative;
   background-color: #f2dac3;
 }
-/* Padding for address section and about us section */
+
 .address {
   padding: 4%;
+}
+
+.phone {
+  text-decoration: none;
+  color: black;
+}
+
+.mailTo {
+  text-decoration: none;
+  color: black;
 }
 
 /* ABOUT US SECTION */
