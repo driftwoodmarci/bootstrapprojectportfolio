@@ -47,6 +47,16 @@ h1 {
   text-align: center;
 }
 
+/* Modal */
+.modal-header {
+  background-color: #c8c2bc;
+  font-weight: bold;
+}
+
+.modalDate {
+  padding: 0% 30%;
+}
+
 /* SERVICES SECTION */
 .services-section {
   padding: 5% 12%;
