@@ -81,8 +81,7 @@ h1 {
 
 /* LOCATION SECTION */
 .location-section {
-  padding: 5% 12%;
-  position: relative;
+  padding: 5% 0px;
   background-color: #f2dac3;
 }
 
@@ -99,6 +98,21 @@ h1 {
   text-decoration: none;
   color: black;
 }
+
+.mapouter {
+  position: relative;
+  /* text-align: right; */
+}
+
+iframe {
+  height: 60vh;
+  width: 70vh;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+​}
 
 /* ABOUT US SECTION */
 .about-section {
